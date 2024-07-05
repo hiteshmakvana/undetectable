@@ -1,0 +1,35 @@
+{
+  "name": "undetectable-poc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "npx prisma migrate dev --name init && next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.14.0",
+    "casdoor-js-sdk": "^0.14.0",
+    "js-cookie": "^3.0.5",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "sanitize": "^2.1.2",
+    "ua-parser-js": "^1.0.38"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^20.12.13",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/ua-parser-js": "^0.7.39",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "prisma": "^5.14.0",
+    "tailwindcss": "^3.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
